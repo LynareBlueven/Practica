@@ -1,5 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-def principal(request):
-  return render(request,"inicio/principal.html")
+def encabezado(request):
+  return render(request,"inicio/encabezado.html")
+
+def inicio(request):
+  return render(request,"inicio/inicio.html") 
